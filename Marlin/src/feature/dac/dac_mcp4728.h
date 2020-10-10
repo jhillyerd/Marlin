@@ -16,7 +16,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
 #pragma once
@@ -40,7 +40,7 @@
 #endif
 
 #ifndef lowByte
-  #define lowByte(w)  ((uint8_t) ((w) & 0xff))
+  #define lowByte(w)  ((uint8_t) ((w) & 0xFF))
 #endif
 
 #ifndef highByte
