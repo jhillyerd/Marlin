@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   shellHook =
     ''
-      echo "Build cmd: platformio run -e STM32F103RC_btt"
-      echo "Clean cmd: platformio run --target clean -e STM32F103RC_btt"
+      echo "Build cmd: platformio run -e STM32F103RC_btt_512K"
+      echo "Clean cmd: platformio run --target clean -e STM32F103RC_btt_512K"
     '';
 }
