@@ -1,0 +1,5 @@
+; PID settings:
+M301 P25.11 I2.12 D74.48
+
+; Z-Probe Offset (mm):
+M851 X-46.00 Y-8.00 Z-2.9
